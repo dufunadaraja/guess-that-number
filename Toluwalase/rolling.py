@@ -11,6 +11,5 @@ def dice_roll():
     if play_again == "yes":
         dice_roll()
     else:
-        print("Game over!")
-    
+        print("Game over!")    
 dice_roll()
